@@ -70,6 +70,31 @@ p { margin: 0 0 18px; }
 .hero .button { border-color: #F7F3EC; background: #F7F3EC; color: var(--earth); }
 .hero .button:hover { border-color: #DCE3D7; background: #DCE3D7; color: var(--earth); }
 .trust-strip { border-block: 1px solid var(--line); background: var(--white); }
+.location-intro { padding-top: clamp(48px, 6vw, 76px); padding-bottom: clamp(38px, 5vw, 60px); }
+.location-intro h2 { max-width: 760px; margin-bottom: 0; }
+.location-intro .section-intro { margin-bottom: 0; }
+.brand-manifesto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 38px 0 !important;
+  padding: 28px 22px 30px;
+  border-block: 1px solid var(--line);
+  background: rgba(220, 227, 215, .28);
+  text-align: center;
+}
+.brand-manifesto-flower { display: block; width: 34px; height: 34px; object-fit: contain; }
+.brand-manifesto p {
+  max-width: 560px;
+  margin: 0 !important;
+  color: var(--olive) !important;
+  font-family: var(--serif);
+  font-size: clamp(1.8rem, 3.4vw, 2.45rem);
+  font-weight: 500;
+  line-height: 1.12;
+  letter-spacing: -.015em;
+}
 .trust-items { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px 24px; padding-block: 18px; }
 .trust-items span { color: var(--muted); font-size: .83rem; }
 .recognition-grid { display: grid; grid-template-columns: .8fr 1.2fr; gap: clamp(36px, 8vw, 105px); }
