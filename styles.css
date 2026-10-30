@@ -36,7 +36,8 @@ p { margin: 0 0 18px; }
 .text-link { display: inline-block; margin-top: 8px; font-size: .9rem; font-weight: 700; text-decoration-thickness: 1px; text-underline-offset: 5px; }
 .site-header { position: sticky; top: 0; z-index: 5; border-bottom: 1px solid rgba(81,72,63,.12); background: rgba(247,243,236,.97); backdrop-filter: blur(10px); }
 .nav { display: flex; min-height: 78px; align-items: center; justify-content: space-between; gap: 24px; }
-.brand { flex-shrink: 0; font-size: 1.8rem; text-decoration: none; letter-spacing: -.025em; }
+.brand { display: inline-flex; flex-shrink: 0; align-items: center; gap: 9px; font-size: 1.8rem; text-decoration: none; letter-spacing: -.025em; }
+.brand-flower { width: 35px; height: 35px; object-fit: contain; }
 .brand span { color: var(--olive); }
 .nav-links { display: flex; align-items: center; gap: 23px; }
 .nav-top-cta { display: none; white-space: nowrap; }
@@ -77,7 +78,7 @@ p { margin: 0 0 18px; }
 .about { background: var(--white); }
 .about-grid { display: grid; grid-template-columns: .7fr 1.3fr; align-items: center; gap: clamp(36px, 8vw, 100px); }
 .about-art { display: grid; min-height: 310px; place-items: center; padding: 28px; background: #E9E2D7; text-align: center; }
-.about-art-mark { color: var(--olive); font-family: var(--serif); font-size: 5rem; line-height: 1; }
+.about-art-flower { display: block; width: 112px; height: 112px; margin: 0 auto; }
 .about-art p { max-width: 230px; margin: 14px auto 0; color: var(--muted); font-family: var(--serif); font-size: 1.5rem; line-height: 1.25; }
 .about-copy p { color: var(--muted); }
 .details { padding-block: clamp(64px, 8vw, 94px); }
@@ -128,9 +129,11 @@ p { margin: 0 0 18px; }
 }
 @media (max-width: 600px) {
   .container { width: min(calc(100% - 36px), var(--page-width)); }
-  .brand { font-size: 1.58rem; }
+  .brand { font-size: 1.58rem; gap: 7px; }
+  .brand-flower { width: 29px; height: 29px; }
   .nav { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; }
   .nav .brand { font-size: 1.42rem; }
+  .nav .brand-flower { width: 27px; height: 27px; }
   .nav-top-cta { display: inline-flex; margin: 0; min-height: 40px; padding: 7px 11px; font-size: .76rem; }
   .nav-toggle { display: flex; }
   .nav-links { display: none; grid-column: 1 / -1; width: 100%; padding: 14px 0 4px; border-top: 1px solid var(--line); align-items: stretch; flex-direction: column; gap: 0; }
