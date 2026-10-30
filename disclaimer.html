@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Disclaimer | Zagara Therapy</title>
+  <meta name="description" content="Important information about the educational nature of this website, therapy services, email, and emergency support.">
+  <meta name="theme-color" content="#F7F3EC">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zagara Therapy">
+  <meta property="og:title" content="Website Disclaimer | Zagara Therapy">
+  <meta property="og:description" content="Important information about the educational nature of this website, therapy services, email, and emergency support.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-label="Zagara Therapy home">Zagara <span>Therapy</span></a>
+    <a class="button nav-top-cta" href="index.html#consultation">Free Consultation</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="primary-navigation">
+      <a href="ocd-therapy.html">OCD Therapy</a>
+      <a href="anxiety-emdr.html">Anxiety &amp; EMDR</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">Fees &amp; FAQs</a>
+      <a class="button nav-menu-cta" href="index.html#consultation">Explore a Free Consultation</a>
+      <a class="client-access-link" href="faq.html#client-access">Client Access</a>
+    </div>
+  </nav>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">Website information</p>
+      <h1>A few important things to know.</h1>
+      <p class="section-intro">Please read this information about the limits of website content and online inquiries.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container prose legal-prose">
+
+      <h2>Website information only</h2>
+      <p>The information on this website is provided for general educational and informational purposes. It is not mental health treatment, diagnosis, or individualized clinical advice, and it should not be used as a substitute for care from a qualified professional who understands your circumstances.</p>
+
+      <h2>No therapist-client relationship</h2>
+      <p>Viewing this website, using its information, or emailing the practice does not by itself create a therapist-client relationship. A relationship is established only after the practice and prospective client have completed the appropriate intake and consent process and agreed to begin services.</p>
+
+      <h2>Services and location</h2>
+      <p>Zagara Therapy offers online psychotherapy to adults who are located in Colorado for sessions, subject to clinical appropriateness, availability, and applicable laws and professional requirements. Website information is not a guarantee that services will be available or appropriate for every person.</p>
+
+      <h2>Email and response times</h2>
+      <p>Email is intended for general inquiries and scheduling-related communication. It may not be secure, and it is not monitored as an emergency service. Please do not send detailed sensitive health information through ordinary email. Response times may vary.</p>
+
+      <h2>Emergencies and crisis support</h2>
+      <p>This website and its email address are not monitored continuously and are not appropriate for urgent or emergency support. If you are in immediate danger or need emergency assistance, call 911 or go to the nearest emergency department. In the United States, you can call or text 988 to reach the Suicide &amp; Crisis Lifeline.</p>
+
+      <h2>External websites</h2>
+      <p>Links to outside websites are provided for convenience. Zagara Therapy does not control and is not responsible for the content, availability, privacy practices, or services of third-party sites.</p>
+
+      <h2>Fees and estimates</h2>
+      <p>Website descriptions of services and fees are informational and may be updated. Prospective clients may request a written Good Faith Estimate of expected charges when applicable. Under federal rules, providers generally must provide a Good Faith Estimate to people who do not have insurance or do not plan to use insurance when they request one or schedule services at least three business days in advance. An estimate is not a bill or a contract. Learn more from the <a href="https://www.cms.gov/initiatives/your-patient-rights/medical-bill-rights/get-help/guides-resources/what-good-faith-estimate" target="_blank" rel="noopener noreferrer">Centers for Medicare &amp; Medicaid Services</a>.</p>
+
+      <p class="legal-updated"><em>Last updated: October 29, 2026</em></p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="index.html">Zagara <span>Therapy</span></a>
+        <p class="footer-blurb">A space to be yourself, and move toward what matters.</p>
+        <p class="footer-contact">Have a question? <a href="mailto:emily@zagaratherapy.com">Email Emily</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="ocd-therapy.html">OCD Therapy</a>
+        <a href="anxiety-emdr.html">Anxiety &amp; EMDR</a>
+        <a href="about.html">About Emily</a>
+        <a href="faq.html">Fees &amp; FAQs</a>
+        <a href="faq.html#client-access">Client Access</a>
+        <a href="index.html#consultation">Getting started</a>
+      </nav>
+    </div>
+    <div class="legal-footer-links" aria-label="Legal information">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="disclaimer.html">Website Disclaimer</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="year">2026</span> Zagara Therapy</span>
+      <span>Online therapy for adults throughout Colorado</span>
+    </div>
+  </div>
+</footer>
+<script>document.querySelectorAll(".year").forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+<script>
+(function () {
+  var toggle = document.querySelector('.nav-toggle');
+  var menu = document.querySelector('#primary-navigation');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function () {
+    var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    toggle.setAttribute('aria-label', isOpen ? 'Open navigation menu' : 'Close navigation menu');
+    menu.classList.toggle('is-open', !isOpen);
+  });
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation menu');
+      menu.classList.remove('is-open');
+    });
+  });
+})();
+</script>
+</body>
+</html>

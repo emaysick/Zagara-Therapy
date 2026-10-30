@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Emily Maysick | Zagara Therapy</title>
+  <meta name="description" content="Meet Emily Maysick, a Colorado-licensed clinical social worker specializing in OCD and anxiety therapy for adults.">
+  <meta name="theme-color" content="#F7F3EC">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Zagara Therapy">
+  <meta property="og:title" content="About Emily Maysick | Zagara Therapy">
+  <meta property="og:description" content="Meet Emily Maysick, a Colorado-licensed clinical social worker specializing in OCD and anxiety therapy for adults.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <nav class="nav container" aria-label="Main navigation">
+    <a class="brand" href="index.html" aria-label="Zagara Therapy home">Zagara <span>Therapy</span></a>
+    <a class="button nav-top-cta" href="index.html#consultation">Free Consultation</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="primary-navigation">
+      <a href="ocd-therapy.html">OCD Therapy</a>
+      <a href="anxiety-emdr.html">Anxiety &amp; EMDR</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">Fees &amp; FAQs</a>
+      <a class="button nav-menu-cta" href="index.html#consultation">Explore a Free Consultation</a>
+      <a class="client-access-link" href="faq.html#client-access">Client Access</a>
+    </div>
+  </nav>
+</header>
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <p class="eyebrow">About Emily</p>
+      <h1>Therapy can offer both compassion and challenge.</h1>
+      <p class="section-intro">A place to feel understood while building the flexibility to respond differently to what life brings.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container content-layout">
+      <article class="prose">
+        <h2>Hi, I'm Emily.</h2>
+        <p>I'm a Colorado-licensed clinical social worker specializing in OCD and anxiety. My approach combines specialized clinical training with curiosity about your experience, relationships, and the things you want more room for in your life.</p>
+        <p>I believe therapy can be warm and relational while also making space for meaningful change. You don't need to show up with the perfect words or a complete understanding of what's happening. We'll work collaboratively, draw on evidence-based approaches, and keep your goals and values at the center.</p>
+        <p>Zagara is the Italian word for citrus blossom—a small nod to my heritage. The name reflects something I believe about the work of therapy: that we are already whole and worthy of care, even as we continue to grow, change, and move toward lives that feel meaningful to us.</p>
+        <p>I don't believe therapy is about fixing what's broken or becoming someone different. It's about making room for your full experience while finding new ways to respond to what life brings.</p>
+        <h2>Making room for uncertainty and change</h2>
+        <p>This work is grounded in the idea that you can take your thoughts and feelings seriously without treating every thought as fact, every feeling as a warning, or every uncertainty as a problem you must solve. Therapy can help you practice new ways of responding while making room for the full human experience.</p>
+        <p>My work is grounded in respect for each person's context and pace. We'll discuss what feels useful, what feels challenging, and how treatment connects to the life you want to live.</p>
+        <a class="button" href="index.html#consultation">Explore getting started</a>
+      </article>
+      <aside class="side-note">
+        <h2>Professional details</h2>
+        <p>Colorado-licensed clinical social worker (LCSW).</p>
+        <p>Specialized focus on OCD and anxiety. Treatment is provided online to adults located in Colorado.</p>
+      </aside>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div>
+        <a class="brand" href="index.html">Zagara <span>Therapy</span></a>
+        <p class="footer-blurb">A space to be yourself, and move toward what matters.</p>
+        <p class="footer-contact">Have a question? <a href="mailto:emily@zagaratherapy.com">Email Emily</a></p>
+      </div>
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="ocd-therapy.html">OCD Therapy</a>
+        <a href="anxiety-emdr.html">Anxiety &amp; EMDR</a>
+        <a href="about.html">About Emily</a>
+        <a href="faq.html">Fees &amp; FAQs</a>
+        <a href="faq.html#client-access">Client Access</a>
+        <a href="index.html#consultation">Getting started</a>
+      </nav>
+    </div>
+    <div class="legal-footer-links" aria-label="Legal information">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="disclaimer.html">Website Disclaimer</a>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="year">2026</span> Zagara Therapy</span>
+      <span>Online therapy for adults throughout Colorado</span>
+    </div>
+  </div>
+</footer>
+<script>document.querySelectorAll(".year").forEach(function (el) { el.textContent = new Date().getFullYear(); });</script>
+<script>
+(function () {
+  var toggle = document.querySelector('.nav-toggle');
+  var menu = document.querySelector('#primary-navigation');
+  if (!toggle || !menu) return;
+  toggle.addEventListener('click', function () {
+    var isOpen = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!isOpen));
+    toggle.setAttribute('aria-label', isOpen ? 'Open navigation menu' : 'Close navigation menu');
+    menu.classList.toggle('is-open', !isOpen);
+  });
+  menu.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', 'Open navigation menu');
+      menu.classList.remove('is-open');
+    });
+  });
+})();
+</script>
+</body>
+</html>
