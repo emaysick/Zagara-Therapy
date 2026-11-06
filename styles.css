@@ -45,9 +45,9 @@ p { margin: 0 0 18px; }
 
 .brand img {
   display: block;
-  height: 100px;
-  width: auto;
-  max-width: 350px;
+  width: 220px;
+  height: auto;
+  max-width: none;
   object-fit: contain;
 }
 .nav-links { display: flex; align-items: center; gap: 23px; }
