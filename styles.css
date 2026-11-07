@@ -135,10 +135,7 @@ p { margin: 0 0 18px; }
 .about-art-flower { display: block; width: 112px; height: 112px; margin: 0 auto; }
 .about-art p { max-width: 230px; margin: 14px auto 0; color: var(--muted); font-family: var(--serif); font-size: 1.5rem; line-height: 1.25; }
 .about-copy p { color: var(--muted); }
-.details {
-  padding-top: clamp(64px, 8vw, 94px);
-  padding-bottom: 0;
-}
+.details { padding-block: clamp(64px, 8vw, 94px); }
 .consultation-note { margin-top: 28px; max-width: 720px; color: var(--muted); font-size: .92rem; }
 .consultation-note p { margin: 8px 0; }
 .consultation-note a, .footer-contact a { color: var(--earth); text-underline-offset: 4px; }
