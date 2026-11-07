@@ -396,3 +396,35 @@ p { margin: 0 0 18px; }
     font-size: clamp(2rem, 7vw, 2.8rem);
   }
 }
+/* Full-width olive tree feature */
+
+.olive-feature {
+  padding: 0 0 48px;
+}
+
+.olive-feature .olive-photo {
+  min-height: 480px;
+  margin: 0;
+  background-position: center 48%;
+  padding: 56px;
+}
+
+.olive-feature .olive-photo p {
+  font-size: clamp(3rem, 5vw, 5rem);
+}
+
+@media (max-width: 700px) {
+  .olive-feature {
+    padding-bottom: 32px;
+  }
+
+  .olive-feature .olive-photo {
+    min-height: 360px;
+    padding: 26px;
+    background-position: 45% center;
+  }
+
+  .olive-feature .olive-photo p {
+    font-size: clamp(2.3rem, 8vw, 3.5rem);
+  }
+}
