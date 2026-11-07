@@ -464,3 +464,11 @@ p { margin: 0 0 18px; }
   margin-top: 30px;
   margin-bottom: 14px;
 }
+.footer-blurb::after {
+  content: "Emily Maysick, LCSW | Colorado Licensed Clinical Social Worker";
+  display: block;
+  margin-top: 12px;
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--muted);
+}
