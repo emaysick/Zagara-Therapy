@@ -137,7 +137,7 @@ p { margin: 0 0 18px; }
 .about-copy p { color: var(--muted); }
 .details {
   padding-top: clamp(64px, 8vw, 94px);
-  padding-bottom: 0;
+  padding-bottom: 32px;
 }
 .consultation-note { margin-top: 28px; max-width: 720px; color: var(--muted); font-size: .92rem; }
 .consultation-note p { margin: 8px 0; }
