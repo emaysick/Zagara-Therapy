@@ -432,3 +432,11 @@ p { margin: 0 0 18px; }
   margin-top: 32px;
   text-align: center;
 }
+/* Homepage spacing refinements */
+.recognition {
+  padding-bottom: 64px;
+}
+
+.services {
+  padding-bottom: 64px;
+}
