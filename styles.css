@@ -165,7 +165,7 @@ p { margin: 0 0 18px; }
 .side-note h2 { font-size: 1.8rem; margin-bottom: 12px; }
 .side-note p { color: #5F5A52; font-size: .93rem; }
 .site-footer {
-  padding-top: 6px;
+  padding-top: 0px;
   padding-bottom: 30px;
   background: var(--cream);
 }
