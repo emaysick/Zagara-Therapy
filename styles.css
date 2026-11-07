@@ -327,3 +327,6 @@ p { margin: 0 0 18px; }
   height: auto;
   object-fit: contain;
 }
+.about-content {
+  padding-bottom: 32px;
+}
