@@ -30,7 +30,7 @@ p { margin: 0 0 18px; }
 .section { padding-block: clamp(66px, 8vw, 104px); }
 .section-intro { max-width: 650px; margin-top: 20px; color: var(--muted); font-size: 1.05rem; }
 .details {
-  padding-bottom: 24px;
+  padding-bottom: 12px;
 }
 .button { display: inline-flex; min-height: 50px; align-items: center; justify-content: center; padding: 12px 21px; border: 1px solid var(--earth); border-radius: 3px; background: var(--earth); color: var(--white); font: 600 .9rem var(--sans); text-decoration: none; transition: background .2s ease, color .2s ease; }
 .button:hover { background: var(--olive); border-color: var(--olive); }
