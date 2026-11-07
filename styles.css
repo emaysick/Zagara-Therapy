@@ -440,3 +440,27 @@ p { margin: 0 0 18px; }
 .services {
   padding-bottom: 64px;
 }
+/* Refined spacing across interior pages */
+
+/* Reduce the space below page introductions */
+.page-hero {
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+
+/* Reduce the space above and below main content */
+.about-content,
+.anxiety-content,
+.ocd-content,
+.faq-content,
+.privacy-content,
+.disclaimer-content {
+  padding-top: 56px;
+  padding-bottom: 32px;
+}
+
+/* Keep text headings closer to their paragraphs */
+.prose h2 {
+  margin-top: 30px;
+  margin-bottom: 14px;
+}
