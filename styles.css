@@ -306,3 +306,8 @@ p { margin: 0 0 18px; }
     width: 155px;
   }
 }
+@media (min-width: 701px) {
+  .brand img {
+    padding-bottom: 6px;
+  }
+}
